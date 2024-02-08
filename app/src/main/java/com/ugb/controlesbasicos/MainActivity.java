@@ -44,21 +44,50 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.optDivision:
                         respuesta=num1/num2;
                         break;
+
                 }
                 spn = findViewById(R.id.spnOpciones);
                 switch (spn.getSelectedItemPosition()){
                     case 0:
                         respuesta = num1 + num2;
                         break;
-                        case 1:
+                    case 1:
                         respuesta = num1 - num2;
                         break;
                     case 2:
                         respuesta = num1 * num2;
                         break;
-                        case 3:
+                    case 3:
                         respuesta = num1 / num2;
                         break;
+                    case 4:
+                        respuesta = (num1 * num2) / 100;
+                        break;
+                    case 5:
+                        respuesta = Math.pow(num1, num2);
+                        break;
+                    case 6:
+                        int n = (int) num1;
+                        int fact = 1;
+                        for (int i = 1; i <= n; i++) {
+                            fact *= i;
+                        }
+                        respuesta = fact;
+                        break;
+                    case 7:
+
+                        /*respuesta = Math.sqrt(num1);*/
+
+                        double x = num1;
+                        double y = 1;
+                        double e = 0.000001;
+                        while (x - y > e) {
+                            x = (x + y) / 2;
+                            y = num1 / x;
+                        }
+                        respuesta = x;
+                        break;
+
                 }
                 tempVal = findViewById(R.id.lblrespuesta);
                 tempVal.setText("Respuesta: "+ respuesta);
