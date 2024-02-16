@@ -10,4 +10,23 @@
         <item>Km</item>
         <item>Milla</item>
     </string-array>
+
+    <string name="mon">Conversores</string>
+    <string-array name="spnMonedas">
+        <item>Dolar</item>
+        <item>Peso Mexicano</item>
+        <item>Peso Argentino</item>
+        <item>Lempira</item>
+    </string-array>
+
+    <string name="mas">Conversores</string>
+    <string-array name="spnMasa">
+        <item>Libra</item>
+        <item>Kilogramo</item>
+        <item>Miligramo</item>
+        <item>Gramo</item>
+        <item>Onza</item>
+        <item>Tonelada</item>
+    </string-array>
+string.xml
 </resources>
