@@ -11,6 +11,14 @@
         <item>Milla</item>
     </string-array>
 
+    <string name="alm">Conversores</string>
+    <string-array name="spnAlmacenamiento">
+        <item>KB</item>
+        <item>MB</item>
+        <item>GB</item>
+        <item>TB</item>
+    </string-array>
+
     <string name="mon">Conversores</string>
     <string-array name="spnMonedas">
         <item>Dolar</item>
@@ -21,12 +29,37 @@
 
     <string name="mas">Conversores</string>
     <string-array name="spnMasa">
-        <item>Libra</item>
+        <item>Tonelada</item>
         <item>Kilogramo</item>
         <item>Miligramo</item>
         <item>Gramo</item>
         <item>Onza</item>
-        <item>Tonelada</item>
+        <item>Libra</item>
     </string-array>
+
+    <string name="vol">Conversores</string>
+    <string-array name="spnVolumen">
+        <item>Litro</item>
+        <item>Mililitro</item>
+        <item>Galon USA</item>
+        <item>Cuarto USA</item>
+    </string-array>
+
+    <string name="tie">Conversores</string>
+    <string-array name="spnTiempo">
+        <item>Hora</item>
+        <item>Minuto</item>
+        <item>Segundo</item>
+        <item>Milisegundo</item>
+    </string-array>
+
+    <string name="tra">Conversores</string>
+    <string-array name="spnTransferenciaDeDatos">
+        <item>Terabyte</item>
+        <item>Gigabyte</item>
+        <item>Megabyte</item>
+
+    </string-array>
+
 string.xml
 </resources>
