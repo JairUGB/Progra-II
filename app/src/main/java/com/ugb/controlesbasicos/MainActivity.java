@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         tbh = findViewById(R.id.tbhParcial);
         tbh.setup();
 
-        tbh.addTab(tbh.newTabSpec("AGU").setContent(R.id.tabvalor_de_agua).setIndicator("Agua", null));
+        tbh.addTab(tbh.newTabSpec("AGU").setContent(R.id.tabmedidor_de_agua).setIndicator("Agua", null));
         tbh.addTab(tbh.newTabSpec("ARE").setContent(R.id.tabArea).setIndicator("Area", null));
 
         btnArea = findViewById(R.id.btnConvertirArea);

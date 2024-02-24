@@ -19,7 +19,7 @@
             android:layout_height="match_parent">
 
             <RelativeLayout
-                android:id="@+id/tabvalor_de_agua"
+                android:id="@+id/tabmedidor_de_agua"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
