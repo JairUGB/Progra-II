@@ -1,5 +1,13 @@
 <resources>
-    <string name="app_name">Tarifa</string>
+    <string name="app_name">controlesBasicos</string>
+    <string-array name="spnArea">
+        <item>metro cuadrado</item>
+        <item>vara cuadrada</item>
+        <item>yarda cuadrada</item>
+        <item>pie cuadrado</item>
+        <item>tareas</item>
+        <item>manzanas</item>
+        <item>hectarea</item>
+    </string-array>
 
-string.xml
 </resources>
